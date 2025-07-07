@@ -111,11 +111,28 @@ export const skills = {
 // === MISSION ARCHIVE ===
 export const projects = [
   {
+    title: "TokoKita E-Commerce",
+    imageUrl: "/projects/home-buyer.png",
+    description:
+      "TokoKita adalah platform e-commerce full-stack dan proyek portofolio yang menghubungkan penjual dan pembeli. Dikembangkan dengan fokus pada kualitas implementasi dan arsitektur solid, platform ini menampilkan fitur kompleks untuk mendemonstrasikan keahlian pengembangan web modern.",
+    tags: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "Tailwind CSS",
+    ],
+    rarity: "EPIC",
+    liveLink: "https://tokokita-bymik.vercel.app/",
+    sourceLink: "https://github.com/fangel123/tokokita.git",
+  },
+  {
     title: "Church Management System",
     imageUrl: "/projects/church-management.png",
     description:
       "Aplikasi web full-stack untuk administrasi gereja dengan otentikasi aman, manajemen anggota, penjadwalan layanan, dan pelacakan kehadiran. Mengurangi entri data manual sebesar 60%.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    tags: ["React", "JavaScript", "Node.js", "PostgreSQL", "Tailwind CSS"],
     rarity: "EPIC",
     liveLink: "https://proyek-gereja.vercel.app/",
     sourceLink:
@@ -127,7 +144,7 @@ export const projects = [
     description:
       "Membangun platform analitik yang memproses 9.000+ catatan Excel melalui pipeline ETL dengan visualisasi interaktif. Mengubah dataset kompleks menjadi wawasan visual yang intuitif.",
 
-    tags: ["React", "Node.js", "Express", "PostgreSQL", "ETL"],
+    tags: ["React", "JavaScript", "Node.js", "Express", "PostgreSQL", "ETL"],
     rarity: "EPIC",
     liveLink: "https://analytics-reporting-dashboard.vercel.app/",
     sourceLink: "https://github.com/fangel123/analytics-reporting-dashboard",
@@ -138,7 +155,7 @@ export const projects = [
     description:
       "Berkontribusi pada pengembangan platform omnichannel terintegrasi yang menyederhanakan operasi bisnis di berbagai marketplace, gudang, sistem POS, dan modul akuntansi.",
 
-    tags: ["React", "TypeScript", "Jira", "Git", "Frontend"],
+    tags: ["TypeScript", "Node.js", "Jira", "Github", "Tailwind CSS", "Frontend"],
     rarity: "RARE",
     liveLink: "https://v2.jubelio.com/",
     sourceLink: null,
